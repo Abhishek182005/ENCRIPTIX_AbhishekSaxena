@@ -3,7 +3,7 @@ It is the repository in which it contains all my projects which i have done in m
 
 
 # TASK 1
-<b>CREATING LANDING PAGE USING HTMLA  & CSS<b>
+<b>CREATING LANDING PAGE USING HTML & CSS<br>
 It is a dummy website made purely from HTML and CSS.  Here it has hyperlink to go to About, Catalogue or Testimonial section<br>
 It also has embedded google map of location. Ohter thing includes Glow texts, revolving icon of Social Media icon and Navbar styling.
 <br>
