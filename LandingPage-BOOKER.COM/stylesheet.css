@@ -1,4 +1,4 @@
-/***** Navbar *****/
+
 .logo {
     height: 100px;
     width: 100px;
@@ -75,7 +75,6 @@ nav {
     visibility: hidden;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -119,7 +118,7 @@ nav {
     }
 }
 
-/***** Responsive Mover *****/
+
 .mover {
     background-color: green;
     color: yellow;
@@ -165,7 +164,7 @@ nav {
 }
 
 .card1 {
-    /* Add shadows to create the "card" effect */
+ 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     max-width: 300px;
@@ -176,7 +175,7 @@ nav {
     color: white;
     background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
 }
-/* On mouse-over, add a deeper shadow */
+
 .card1:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -196,7 +195,7 @@ nav {
 }
 
 .card2 {
-    /* Add shadows to create the "card" effect */
+   
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     max-width: 300px;
@@ -208,7 +207,7 @@ nav {
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
-/* On mouse-over, add a deeper shadow */
+
 .card2:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -219,7 +218,7 @@ nav {
 
 
 
-/* Add some padding inside the card container */
+
 .container {
     padding: 16px;
     text-align: center;
