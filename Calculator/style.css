@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container0 {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+body {
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/beach.jpg");
+    background-size: cover;
+    flex-direction: column; 
+}
+
+.calculator {
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5%;
+    background: linear-gradient(to bottom, #5433ff, #20bdff, #a5fecb);
+    box-shadow: 0 0 7px #1ABC9C,
+                0 0 10px #34A85A,
+                0 0 21px #1ABC9C,
+                0 0 42px #34A85A,
+                0 0 82px #1ABC9C;
+}
+
+input {
+    width: 290px;
+    border: none;
+    padding: 15%;
+    margin: 1px;
+    background-color: black;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #4deeea;
+}
+
+input::placeholder {
+    color: #4deeea;
+}
+
+button {
+    border: none;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 30%;
+    background-color: black;
+    font-size: 20px;
+    color: cyan;
+    text-shadow: 
+        0 0 7px #03A9F4,
+        0 0 10px #87CEEB,
+        0 0 21px #03A9F4,
+        0 0 42px #87CEEB,
+        0 0 82px #03A9F4,
+        0 0 92px #87CEEB,
+        0 0 102px #03A9F4;
+    border: 1px solid darkblue;
+}
+
+button:hover {
+    background-color: cyan;
+    color: blue;
+    text-shadow: 
+        0 0 7px #03A9F4,
+        0 0 10px #87CEEB,
+        0 0 21px #03A9F4,
+        0 0 42px #87CEEB,
+        0 0 82px #03A9F4,
+        0 0 92px #87CEEB,
+        0 0 102px #03A9F4;
+    cursor: pointer;
+}
+
+.equal {
+    background-color: red;
+    color: yellow;
+}
+
+.equal:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.operator {
+    color: lawngreen;
+    text-shadow: 
+        0 0 7px #FFA07A,
+        0 0 10px #FFC67D,
+        0 0 21px #FFA07A,
+        0 0 42px #FFC67D,
+        0 0 82px #FFA07A,
+        0 0 92px #FFC67D,
+        0 0 102px #FFA07A;
+    background-color: black;
+}
+
+.operator:hover {
+    background-color: #50C878;
+    color: yellow;
+}
+
+.p1 {
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    height:auto;
+    width: 500px;
+}
+
+.neon1 {
+    font-size: 18px;
+    color: #4deeea;
+    text-shadow: 
+        0 0 7px #03A9F4,
+        0 0 10px #87CEEB,
+        0 0 21px #03A9F4,
+        0 0 42px #87CEEB,
+        0 0 82px #03A9F4;
+}
+
+.neon2 {
+    font-size: 18px;
+    color: yellow;
+    text-shadow: 
+        0 0 7px #FFA07A,
+        0 0 10px #FFC67D,
+        0 0 21px #FFA07A,
+        0 0 42px #FFC67D,
+        0 0 82px #FFA07A;
+}
